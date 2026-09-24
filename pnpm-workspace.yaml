@@ -1,5 +1,6 @@
 allowBuilds:
   esbuild: false
-  unrs-resolver: true
+  unrs-resolver: false
 minimumReleaseAgeExclude:
   - '@types/node@26.6.2'
+  - seedcord-plugin-unstorage@1.1.0 || 1.1.1 || 1.2.0
