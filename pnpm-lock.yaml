@@ -12,8 +12,8 @@ importers:
         specifier: ^1.14.1
         version: 1.14.1
       '@seedcord/gateway':
-        specifier: ^0.7.0
-        version: 0.7.0(discord.js@14.27.0)(envapt@8.2.3)(typescript@6.0.3)
+        specifier: ^0.7.1
+        version: 0.7.1(discord.js@14.27.0)(envapt@8.2.3)(typescript@6.0.3)
       discord.js:
         specifier: ^14.27.0
         version: 14.27.0
@@ -22,7 +22,7 @@ importers:
         version: 8.2.3
       seedcord-plugin-unstorage:
         specifier: ^1.2.0
-        version: 1.2.0(@seedcord/core@0.9.0(envapt@8.2.3)(typescript@6.0.3))(unstorage@1.17.5)
+        version: 1.2.0(@seedcord/core@0.9.1(envapt@8.2.3)(typescript@6.0.3))(unstorage@1.17.5)
       unstorage:
         specifier: ^1.17.5
         version: 1.17.5
@@ -43,8 +43,8 @@ importers:
         specifier: ^3.9.9
         version: 3.9.9
       seedcord:
-        specifier: ^0.21.0
-        version: 0.21.0(@types/node@26.6.2)(envapt@8.2.3)(typescript@6.0.3)(yaml@2.9.1)
+        specifier: ^0.21.1
+        version: 0.21.1(@types/node@26.6.2)(envapt@8.2.3)(typescript@6.0.3)(yaml@2.9.1)
       typescript:
         specifier: ~6.0
         version: 6.0.3
@@ -324,21 +324,21 @@ packages:
     resolution: {integrity: sha512-xzvBr1Q1c4lCe7i6sRnrofxeO1QTP/LKQ6A6qy0iB4x5yfiSfARMEQEghojzTNALDTcv8En04qYNIco9/K9eZQ==}
     engines: {node: '>=v14.0.0', npm: '>=7.0.0'}
 
-  '@seedcord/core@0.9.0':
-    resolution: {integrity: sha512-X991kBA9sNpgQ+nzLYI5M7fKd/AC2H6an9jT5+Hy5RiP3YWjOxuLW/jWzJrbhqBuPZzUnMddvhgleXsHD6mhfA==}
+  '@seedcord/core@0.9.1':
+    resolution: {integrity: sha512-uFxaWQW5QM90KV9BGIVJNA5ImVkboyCJ0Np2YhTksgHv3E4+9vCq/90w+1jFiBPFeMXW5s7aVQRSxxa0vaINvQ==}
     engines: {node: '>=24.11'}
     peerDependencies:
       envapt: ^8.2.2
       typescript: ^6.0.3
 
-  '@seedcord/custom-id@0.2.3':
-    resolution: {integrity: sha512-oDQtqbfT1ErT11GPxPlUHrfTeeI/HNzexoNNQXyFyF6R7TityQrsglCmb1M8Hh8auukipcrIvIK4s4hqluy9nw==}
+  '@seedcord/custom-id@0.2.4':
+    resolution: {integrity: sha512-ZxI0ZoEc+VyGWyHy2rDFezt4jNc68IyKBvITG1nlcBpnOBPojBDb8fQL8ZnnZHc4dkdapclxIS4nQ08pFHg22A==}
     engines: {node: '>=24.11'}
     peerDependencies:
       typescript: ^6.0.3
 
-  '@seedcord/errors@0.10.0':
-    resolution: {integrity: sha512-/EJL9zflwFo4jJvwwNRQOn2o1YmI0E308mXcS6e71pRxFcu9a5iANwmbxCGFodrZBHuAFNfeMx1ChJTbynqB7A==}
+  '@seedcord/errors@0.11.0':
+    resolution: {integrity: sha512-q7p1cKPwrKeqRSpAwvDUdQNvgS/kMbS0WO+0GlgCA73IPYn+Lq2Lrd0Y7MOhQztAyp9kGaY6mjFhrbtZSsAppw==}
     engines: {node: '>=24.11'}
     peerDependencies:
       typescript: ^6.0.3
@@ -379,16 +379,16 @@ packages:
     peerDependencies:
       typescript: ^6.0.3
 
-  '@seedcord/gateway@0.7.0':
-    resolution: {integrity: sha512-72aDqKUoiGllJFSG2LR7+cadw77NvHV4TBzYLlPo5D8M+X32CMe/bc7+YIVqV8voHQhrL6CQKLkR8KkeQzc/Uw==}
+  '@seedcord/gateway@0.7.1':
+    resolution: {integrity: sha512-e7NMK++/jTJGsP2A6FbvTOTV5iTHfQCvyyjBxu/v+ys2O4hEHMWSEuGlvDCTHwSgUrA7T2FMoxUFYHzMNtVmvA==}
     engines: {node: '>=24.11'}
     peerDependencies:
       discord.js: ^14.27.0
       envapt: ^8.2.2
       typescript: ^6.0.3
 
-  '@seedcord/logger@0.4.0':
-    resolution: {integrity: sha512-ZPlBpU/nHP+LwZFdLSqL1PMa+0zQI91RjywOTCWkD28gcL/bMSjaQXnMvNkJfQ3Co3jVWG6ChlscVhZxj7XxJw==}
+  '@seedcord/logger@0.4.1':
+    resolution: {integrity: sha512-sLMse4lYseM4HXIl/snTGn6pQ7gVqgUnG5tCm+vmSNGvQO7j6DNKDND7vu2THj08p6j7g8COxybkR/EbDpOl3w==}
     engines: {node: '>=24.11'}
     peerDependencies:
       envapt: ^8.2.2
@@ -410,8 +410,8 @@ packages:
     peerDependencies:
       typescript: ^6.0.3
 
-  '@seedcord/utils@0.8.13':
-    resolution: {integrity: sha512-IZ+9gzWVprOtILfWqd2q3vCMH2RyCa+jA+zFYgWO74PSS4h56cbmdqKRTHjwDr3gcxSJWzPIu9ElhYudACtiKQ==}
+  '@seedcord/utils@0.8.14':
+    resolution: {integrity: sha512-+Bc4plVD+0qwzBclHUKEAMax1rEAxw5Mf/WZrwZNXh39OC6BSLfZDELHTH2dWstZdMWDQpG81jk/ye2a6vtZSw==}
     engines: {node: '>=24.11'}
     peerDependencies:
       typescript: ^6.0.3
@@ -1605,8 +1605,8 @@ packages:
       '@seedcord/core': ^0.9.0
       unstorage: ^1.17.5
 
-  seedcord@0.21.0:
-    resolution: {integrity: sha512-GenfUa3YIYcHIPlUn5HUPuqWmceuFw7O0lFF4O9fHJ1SPPputNv90zP5/95raZ3Nd7ewD5pEfZ0V49P8QpdYKw==}
+  seedcord@0.21.1:
+    resolution: {integrity: sha512-hykwDJnJbknVHpYEPQOgzU/6kK8M7/Gy5aQZJ1kNyt+58CSdyycEOCmSrCI4+7ysbzPrJhMz7TWhp89HVKUAQA==}
     engines: {node: '>=24.11'}
     hasBin: true
     peerDependencies:
@@ -2202,28 +2202,28 @@ snapshots:
 
   '@sapphire/snowflake@3.5.5': {}
 
-  '@seedcord/core@0.9.0(envapt@8.2.3)(typescript@6.0.3)':
+  '@seedcord/core@0.9.1(envapt@8.2.3)(typescript@6.0.3)':
     dependencies:
       '@discordjs/builders': 1.14.1
       '@discordjs/rest': 2.6.3
-      '@seedcord/custom-id': 0.2.3(typescript@6.0.3)
-      '@seedcord/errors': 0.10.0(typescript@6.0.3)
+      '@seedcord/custom-id': 0.2.4(typescript@6.0.3)
+      '@seedcord/errors': 0.11.0(typescript@6.0.3)
       '@seedcord/event-emitter': 0.1.5(typescript@6.0.3)
-      '@seedcord/logger': 0.4.0(envapt@8.2.3)(typescript@6.0.3)
+      '@seedcord/logger': 0.4.1(envapt@8.2.3)(typescript@6.0.3)
       '@seedcord/types': 0.14.0(typescript@6.0.3)
-      '@seedcord/utils': 0.8.13(typescript@6.0.3)
+      '@seedcord/utils': 0.8.14(typescript@6.0.3)
       discord-api-types: 0.38.55
       envapt: 8.2.3
       reflect-metadata: 0.2.2
       typescript: 6.0.3
 
-  '@seedcord/custom-id@0.2.3(typescript@6.0.3)':
+  '@seedcord/custom-id@0.2.4(typescript@6.0.3)':
     dependencies:
-      '@seedcord/errors': 0.10.0(typescript@6.0.3)
+      '@seedcord/errors': 0.11.0(typescript@6.0.3)
       discord-api-types: 0.38.55
       typescript: 6.0.3
 
-  '@seedcord/errors@0.10.0(typescript@6.0.3)':
+  '@seedcord/errors@0.11.0(typescript@6.0.3)':
     dependencies:
       chalk: 6.0.0
       typescript: 6.0.3
@@ -2264,28 +2264,28 @@ snapshots:
     dependencies:
       typescript: 6.0.3
 
-  '@seedcord/gateway@0.7.0(discord.js@14.27.0)(envapt@8.2.3)(typescript@6.0.3)':
+  '@seedcord/gateway@0.7.1(discord.js@14.27.0)(envapt@8.2.3)(typescript@6.0.3)':
     dependencies:
       '@discordjs/builders': 1.14.1
       '@discordjs/rest': 2.6.3
-      '@seedcord/core': 0.9.0(envapt@8.2.3)(typescript@6.0.3)
-      '@seedcord/custom-id': 0.2.3(typescript@6.0.3)
-      '@seedcord/errors': 0.10.0(typescript@6.0.3)
+      '@seedcord/core': 0.9.1(envapt@8.2.3)(typescript@6.0.3)
+      '@seedcord/custom-id': 0.2.4(typescript@6.0.3)
+      '@seedcord/errors': 0.11.0(typescript@6.0.3)
       '@seedcord/event-emitter': 0.1.5(typescript@6.0.3)
-      '@seedcord/logger': 0.4.0(envapt@8.2.3)(typescript@6.0.3)
+      '@seedcord/logger': 0.4.1(envapt@8.2.3)(typescript@6.0.3)
       '@seedcord/rate-limiter': 0.1.9(typescript@6.0.3)
       '@seedcord/types': 0.14.0(typescript@6.0.3)
-      '@seedcord/utils': 0.8.13(typescript@6.0.3)
+      '@seedcord/utils': 0.8.14(typescript@6.0.3)
       discord.js: 14.27.0
       envapt: 8.2.3
       reflect-metadata: 0.2.2
       typescript: 6.0.3
 
-  '@seedcord/logger@0.4.0(envapt@8.2.3)(typescript@6.0.3)':
+  '@seedcord/logger@0.4.1(envapt@8.2.3)(typescript@6.0.3)':
     dependencies:
-      '@seedcord/errors': 0.10.0(typescript@6.0.3)
+      '@seedcord/errors': 0.11.0(typescript@6.0.3)
       '@seedcord/types': 0.14.0(typescript@6.0.3)
-      '@seedcord/utils': 0.8.13(typescript@6.0.3)
+      '@seedcord/utils': 0.8.14(typescript@6.0.3)
       chalk: 6.0.0
       envapt: 8.2.3
       typescript: 6.0.3
@@ -2303,9 +2303,9 @@ snapshots:
       discord-api-types: 0.38.55
       typescript: 6.0.3
 
-  '@seedcord/utils@0.8.13(typescript@6.0.3)':
+  '@seedcord/utils@0.8.14(typescript@6.0.3)':
     dependencies:
-      '@seedcord/errors': 0.10.0(typescript@6.0.3)
+      '@seedcord/errors': 0.11.0(typescript@6.0.3)
       '@seedcord/types': 0.14.0(typescript@6.0.3)
       discord-api-types: 0.38.55
       strip-ansi: 7.2.0
@@ -3441,22 +3441,22 @@ snapshots:
 
   scheduler@0.27.0: {}
 
-  seedcord-plugin-unstorage@1.2.0(@seedcord/core@0.9.0(envapt@8.2.3)(typescript@6.0.3))(unstorage@1.17.5):
+  seedcord-plugin-unstorage@1.2.0(@seedcord/core@0.9.1(envapt@8.2.3)(typescript@6.0.3))(unstorage@1.17.5):
     dependencies:
-      '@seedcord/core': 0.9.0(envapt@8.2.3)(typescript@6.0.3)
+      '@seedcord/core': 0.9.1(envapt@8.2.3)(typescript@6.0.3)
       unstorage: 1.17.5
 
-  seedcord@0.21.0(@types/node@26.6.2)(envapt@8.2.3)(typescript@6.0.3)(yaml@2.9.1):
+  seedcord@0.21.1(@types/node@26.6.2)(envapt@8.2.3)(typescript@6.0.3)(yaml@2.9.1):
     dependencies:
       '@clack/prompts': 1.8.1
       '@commander-js/extra-typings': 15.0.0(commander@15.0.0)
       '@discordjs/rest': 2.6.3
-      '@seedcord/core': 0.9.0(envapt@8.2.3)(typescript@6.0.3)
-      '@seedcord/errors': 0.10.0(typescript@6.0.3)
+      '@seedcord/core': 0.9.1(envapt@8.2.3)(typescript@6.0.3)
+      '@seedcord/errors': 0.11.0(typescript@6.0.3)
       '@seedcord/event-emitter': 0.1.5(typescript@6.0.3)
-      '@seedcord/logger': 0.4.0(envapt@8.2.3)(typescript@6.0.3)
+      '@seedcord/logger': 0.4.1(envapt@8.2.3)(typescript@6.0.3)
       '@seedcord/types': 0.14.0(typescript@6.0.3)
-      '@seedcord/utils': 0.8.13(typescript@6.0.3)
+      '@seedcord/utils': 0.8.14(typescript@6.0.3)
       commander: 15.0.0
       discord-api-types: 0.38.55
       envapt: 8.2.3

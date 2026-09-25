@@ -4,3 +4,10 @@ allowBuilds:
 minimumReleaseAgeExclude:
   - '@types/node@26.6.2'
   - seedcord-plugin-unstorage@1.1.0 || 1.1.1 || 1.2.0
+  - '@seedcord/core@0.9.1'
+  - '@seedcord/custom-id@0.2.4'
+  - '@seedcord/errors@0.11.0'
+  - '@seedcord/gateway@0.7.1'
+  - '@seedcord/logger@0.4.1'
+  - '@seedcord/utils@0.8.14'
+  - seedcord@0.21.1

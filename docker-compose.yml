@@ -1,0 +1,9 @@
+services:
+  bot:
+    container_name: discord-bot
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - ./data:./data
+      - ./logs:./logs

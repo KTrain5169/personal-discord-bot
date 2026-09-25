@@ -19,7 +19,7 @@
     },
     "dependencies": {
         "@discordjs/builders": "^1.14.1",
-        "@seedcord/gateway": "^0.7.0",
+        "@seedcord/gateway": "^0.7.1",
         "discord.js": "^14.27.0",
         "envapt": "^8.2.3",
         "seedcord-plugin-unstorage": "^1.2.0",
@@ -31,7 +31,7 @@
         "@types/node": "^26.6.2",
         "jiti": "^2.7.0",
         "prettier": "^3.9.9",
-        "seedcord": "^0.21.0",
+        "seedcord": "^0.21.1",
         "typescript": "~6.0"
     }
 }
