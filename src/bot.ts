@@ -4,7 +4,7 @@ import { Seedcord } from '@seedcord/gateway';
 import { GatewayIntentBits, Partials } from 'discord.js';
 import { Envapter } from 'envapt';
 import { UnstorageClass } from 'seedcord-plugin-unstorage';
-import fsDriver from 'unstorage/drivers/fs-lite'
+import fsDriver from 'unstorage/drivers/fs-lite';
 
 Envapter.baseDir = resolve(import.meta.dirname, '..');
 
@@ -31,8 +31,12 @@ export const seedcord = new Seedcord({
     notifications: {
         developerUsername: 'KTrain5369'
     }
-}).attach('storage', UnstorageClass<string>, fsDriver({
-    base: './data',
-}));
+}).attach(
+    'storage',
+    UnstorageClass<string>,
+    fsDriver({
+        base: './data'
+    })
+);
 
 export default seedcord;

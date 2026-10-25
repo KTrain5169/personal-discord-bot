@@ -5,6 +5,7 @@ logs/
 *.tsbuildinfo
 .eslintcache
 .seedcord/
+.content-collections/
 
 .env*
 !.env.example

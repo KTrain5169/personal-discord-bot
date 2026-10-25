@@ -15,6 +15,8 @@ declare module '@seedcord/gateway' {
         'storage/list': { options: { prefix: { kind: 'string'; required: false } }; cache: 'cached' };
         'storage/read': { options: { key: { kind: 'string'; required: true } }; cache: 'cached' };
         'storage/write': { options: { key: { kind: 'string'; required: true }; value: { kind: 'string'; required: true }; append: { kind: 'boolean'; required: false } }; cache: 'cached' };
+        'tag/list': { options: { ephemeral: { kind: 'boolean'; required: false } }; cache: 'cached' };
+        'tag/view': { options: { slug: { kind: 'string'; required: true; choices: ['test'] }; ephemeral: { kind: 'boolean'; required: false } }; cache: 'cached' };
     }
     interface UserContextMenuRegistry {
 
